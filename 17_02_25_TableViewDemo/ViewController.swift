@@ -16,6 +16,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         studentsTableView.delegate = self
         studentsTableView.dataSource = self
+        studentsTableView.delegate = self
+        studentsTableView.dataSource = self
+        studentsTableView.delegate = self
+        studentsTableView.dataSource = self
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
